@@ -30,8 +30,8 @@ const layerConfigurations = [
       { name: "face" },
       { name: "grade" },
       { name: "kimono" },
-      { name: "Satomi" },
-      { name: "tram" },,
+      { name: "satomi" },
+      { name: "team" },,
     ],
   },
 ];
