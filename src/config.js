@@ -27,11 +27,11 @@ const layerConfigurations = [
     growEditionSizeTo: 400,
     layersOrder: [
       { name: "Background" },
-      { name: "face" },
-      { name: "grade" },
-      { name: "kimono" },
-      { name: "satomi" },
-      { name: "team" },,
+      { name: "Face" },
+      { name: "Grade" },
+      { name: "Kimono" },
+      { name: "Satomi" },
+      { name: "Team" },,
     ],
   },
 ];
@@ -41,8 +41,8 @@ const shuffleLayerConfigurations = false;
 const debugLogs = false;
 
 const format = {
-  width: 512,
-  height: 512,
+  width: 768,
+  height: 1344,
   smoothing: false,
 };
 
