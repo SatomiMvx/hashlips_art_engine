@@ -9,7 +9,20 @@ const namePrefix = "Your Collection";
 const description = "Remember to replace this description";
 const baseUri = "ipfs://NewUriToReplace";
 
-
+// If you have selected Solana then the collection starts from 0 automatically
+const layerConfigurations = [
+  {
+    growEditionSizeTo: 40,
+    layersOrder: [
+      { name: "Background" },
+      { name: "Face" },
+      { name: "Grade" },
+      { name: "Kimono" },
+      { name: "Satomi" },
+      { name: "Team" },,
+    ],
+  },
+];
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
