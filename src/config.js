@@ -17,9 +17,10 @@ const layerConfigurations = [
     growEditionSizeTo: 400,
     layersOrder: [
       { name: "Background" },
+      { name: "Frame" },
+      { name: "Satomi" },
       { name: "Face" },
       { name: "Grade" },
-      { name: "Satomi" },
       { name: "Style" },
       { name: "Team" },,
     ],
@@ -57,7 +58,7 @@ const text = {
 };
 
 const pixelFormat = {
-  ratio: 2 / 128,
+  ratio: 24 / 128,
 };
 
 const background = {
@@ -74,14 +75,14 @@ const rarityDelimiter = "#";
 const uniqueDnaTorrance = 10000;
 
 const preview = {
-  thumbPerRow: 5,
-  thumbWidth: 50,
+  thumbPerRow: 25,
+  thumbWidth: 300,
   imageRatio: format.height / format.width,
   imageName: "preview.png",
 };
 
 const preview_gif = {
-  numberOfImages: 5,
+  numberOfImages: 20,
   order: "ASC", // ASC, DESC, MIXED
   repeat: 0,
   quality: 100,
